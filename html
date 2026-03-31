@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Daniel Mateo Cruz Orjuela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container hero">
+        <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="profile-pic">
+        <h1>Daniel Mateo Cruz Orjuela</h1>
+        <p class="tagline">Estudiante con Inglés desarrollado (intermedio)</p>
+        <button id="darkModeToggle">Modo Oscuro</button>
+    </div>
+</header>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante de grado décimo, tengo 16 años y me interesa aprender diferentes ramas del estudio.
+            Me gusta jugar videojuegos, leer y plantar. Actualmente quiero aprender Bioquímica.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Habilidades</h2>
+
+        <div class="skill">
+            <span>Trabajo en equipo</span>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Inglés intermedio</span>
+            <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2>Proyectos</h2>
+
+        <div class="projects-grid">
+
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Carro con micro:bit</h3>
+                <p>Programación de un carro robot usando micro:bit.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Dashboard en Excel</h3>
+                <p>Creación de gráficos y análisis de ventas.</p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contacto</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+        <p>
+            Correo: est.danielcruz@iedjgc.edu.co<br>
+            Ciudad: Bogotá
+        </p>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Daniel Mateo Cruz Orjuela</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
